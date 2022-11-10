@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Rafael de Albuquerque</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/device.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aadff0a912.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="background" id="home">
+        <nav>
+            <h2 id="logo">Portfó<span>lio</span></h2>
+            <ul class="cabecalho-link" id="cabecalho">
+                <li><a href="#home"> Início </a></li>
+                <li><a href="#main"> Sobre Mim </a></li>
+                <li><a href="#projetos"> Projetos </a></li>
+                <li><a href="#habilidades"> Habilidades </a></li>
+                <li><a href="#contato"> Contato </a></li>
+            </ul>
+            <a href="#" class="btn" id="btn1">Inscreva-se</a>
+        </nav>
+        <div class="Main">
+            <h4>Olá, meu nome é</h4>
+            <h1>Rafael <span>de Albuquerque</span></h1>
+            <h3>Eu sou um Programador <span>Frontend</span> Jr.</h3>
+            <div class="Container-btn">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Envie seu Email">
+                    <input type="submit" name="submit" value="Começar">
+                </form>
+            </div>
+        </div>
+        <aside>
+            <div class="icon-menu" onclick="abrirmenu()">
+                <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+            </div>
+            <div id="barra-menu">
+                <ul>
+                    <li><a href="#home"> Início </a></li>
+                    <li><a href="#main"> Sobre Mim </a></li>
+                    <li><a href="#projetos"> Projetos </a></li>
+                    <li><a href="#habilidades"> Habilidades </a></li>
+                    <li><a href="#contato"> Contato </a></li>
+
+                    <a href="#" class="C-icon">Inscreva-se</a>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <section class="background-color-sobre" id="main">
+        <div class="Main-sobre">
+            <img src="/programando.png">
+                <div class="text-sobre">
+                    <h2>Sobre Mim</h2>
+                    <h5>Desenvolvedor <span>Frontend</span> Jr.</h5>
+                    <p>
+                        Eu sou um Desenvolvedor Web Frontend Junior. Estou procurando uma recolocação no mercado de Trabalho. 
+                        Cursando atualmente o 1º semestre de Engenharia de Software, busco me desenvolver a cada dia, 
+                        sempre criando algo novo. Faço uso de códigos limpos e semântica html nos meus projetos. 
+                        Posso deixar sites interativos e responsivos, fazendo que todos os usuários possam navegar no site
+                        independentemente do dispositivo.
+                    </p>
+                    <button class="button">Vamos Conversar</button>
+                </div>
+        </div>
+    </section>
+    <div class="Container-Meus-Projetos" id="projetos">
+        <div class="Title">
+            <h2>Meus Projetos</h2>
+        </div>
+        <div class="Caixa">
+            <div class="card">
+                <i class="fa-solid fa-id-badge" id="mp"></i>
+                <h5>Mini Portfólio</h5>
+                <p>Site construido de maneira simples, utilizando HTML, CSS e JavaScript. Lá coloco de maneira 
+                resumida, o porque do meu amor por programação, e também disponibilizo meu Currículo, Linked In 
+                e Git Hub.</p>
+                <button class="card-btn">
+                    <a href="https://rafaelusa.github.io/meu-mini-portfolio/" target="_blank">
+                        Veja
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gamepad" id="sg"></i>
+                <h5>Snake Game</h5>
+                <p>Aqui você pode se divertir jogando um game classico dos anos 2000. Sua codificação é
+                100% HTML, CSS e JavaScript. Foi meu primeiro projeto gameficado. Ainda existe a possíbilidade
+                de uma tela de pontuação.
+                </p>
+                <button class="card-btn">
+                    <a href="https://rafaelusa.github.io/snake-game/" target="_blank">
+                        Veja
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-images" id="lp"></i>
+                <h5>Landing Page - Vamo Lusa</h5>
+                <p>Landing Page construido utilizando HTML, CSS e JavaScript. Seu objetivo era a criação de 
+                Newsletter sobre a Portuguesa de Desportos, meu time de coração. Incluí um formulário em que
+                o usuário inseri seu nome e email.</p>
+                <button class="card-btn">
+                    <a href="https://rafaelusa.github.io/Vamo-Lusa/" target="_blank">
+                        Veja
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="habilidades" id="habilidades">
+        <h6 id="titulo">Habilidades</h6>
+        <p>
+            Linguagens de programação que estou estudando:
+        </p>
+        <div class="linguagens">
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-python"></i>
+        </div>
+    </div>
+    <div class="me-contate" id="contato">
+        <p>
+            Contate-me para criarmos um site bonito e moderno para você!
+        </p>
+        <button class="card-btn">Enviar Mensagem</button>
+    </div>
+    <footer>
+        <h6>Rafael De Albuquerque</h6>
+        <p>Obrigado por visitar meu Site. <br>Fique a vontade para entra nas Redes Sociais abaixo:</p>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/rafael.ribeiro.353803" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Rafael012" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/albuquerquerafael12/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://github.com/Rafaelusa" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="End">
+            <p>Copyright by @Rafael012</p>
+        </div>
+    </footer>
+</body>
+</html>
